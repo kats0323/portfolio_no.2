@@ -1,0 +1,125 @@
+.name-wrapper{
+  
+  position: absolute;
+  width: 50%;
+  margin-top: 280px;
+  margin-left: 340px;
+}
+
+
+.line01,
+.line02,
+.line03,
+.line04,
+.line05,
+.line06,
+.line07,
+.line08,
+.line09,
+.line10,
+.line11,
+.line12,
+.line13,
+.line14,
+.line15,
+.line16 {    
+	stroke:#bee0c2;
+	
+	fill-opacity: 0;
+	stroke-width:2;
+	stroke-dasharray: 3000;
+	stroke-dashoffset:3000;
+	-webkit-animation: LINE 15s ease-in 0s forwards;
+	animation: LINE 15s ease-in 0s forwards;
+}
+@keyframes LINE{
+	0%{stroke-dashoffset:3000;fill-opacity: 0;}
+	30% {fill-opacity: 0;}
+	35% {fill-opacity: 1;}
+	100%{stroke-dashoffset:0;fill-opacity: 1;}
+}
+@-webkit-keyframes LINE{
+	0%{stroke-dashoffset:3000;fill-opacity: 0;}
+	30% {fill-opacity: 0;}
+	35% {fill-opacity: 1;}
+	100%{stroke-dashoffset:0;fill-opacity: 1;}
+}
+
+
+
+
+.btn {
+        
+  color: #bee0c2;
+  display: inline-block;
+  
+  position: absolute;
+  animation: fadein 5.5s ease-in-out alternate 0s forwards;
+  margin-top: 280px;
+  margin-left: 290px;
+  
+  
+  
+}
+.learn{
+  width: 240px;
+  height: 70px;
+  border: 2px solid #bee0c2;
+  border-radius: 30px;
+  font-size: 45px;
+  color:  #bee0c2;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-left: 45px;
+}
+
+.learn:hover{
+  width: 300px;
+  height: 72px;
+  font-size: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 6px solid #00ff7f;
+  transition: all 2s;
+  margin-left: 280px;
+  color: #00ff7f;
+  padding-left: 35px;
+  padding-bottom: 8px;
+  
+  
+  
+  
+}
+
+
+@keyframes fadein{
+  0%{
+      opacity: 0;
+  }
+  98%{
+      opacity: 0;
+  }
+  99%{
+      opacity: 0.5;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+#hoge{
+  width:100%;
+  height: 900px;
+  margin:0 auto;
+  background-color:#000;
+  position: relative;
+}
