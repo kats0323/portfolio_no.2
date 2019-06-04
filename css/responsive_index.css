@@ -1,0 +1,54 @@
+@media (max-width: 1000px) {
+    .name-wrapper{
+  
+        position: absolute;
+        width: 30%;
+        margin-top: 150px;
+        margin-left: 10px;
+      }
+      .btn {
+        
+        
+        margin-top: 140px;
+        margin-left: 55px;
+        
+        
+        
+      }
+      .learn{
+        width: 130px;
+        height: 35px;
+        border: 2px solid #bee0c2;
+        border-radius: 30px;
+        font-size: 25px;
+        color:  #bee0c2;
+        text-decoration: none;
+        padding-top: 10px;
+        padding-left: 15px;
+      }
+      
+      .learn:hover{
+        width: 150px;
+        height: 42px;
+        font-size: 30px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 6px solid #00ff7f;
+        transition: all 2s;
+        margin-left:0;
+        color: #00ff7f;
+        padding-left: 25px;
+        padding-bottom: 8px;
+        
+        
+        
+        
+      }
+      
+      #hoge{
+        height: 1500px;
+        width: 1100px;
+        margin:0 auto;
+        background-color:#000;
+        position: relative;
+      }
+    }
