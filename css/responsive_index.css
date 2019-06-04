@@ -37,7 +37,37 @@
         
         
             margin-top: 140px;
-            margin-left: 32px;
+            margin-left: 49px;
+            
+            
+            
+          }
+
+          .learn{
+            width: 200px;
+            height: 40px;
+            
+            border: 2px solid #bee0c2;
+            border-radius: 30px;
+            font-size: 37px;
+            color:  #bee0c2;
+            text-decoration: none;
+            padding-top: 0;
+            padding-left: 22px;
+          }
+          
+          .learn:hover{
+            width: 220px;
+            height: 45px;
+            font-size: 40px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border: 4px solid #00ff7f;
+            transition: all 2s;
+            margin-left: 0;
+            color: #00ff7f;
+            padding-left: 25px;
+            padding-bottom: 5px;
+            
             
             
             
