@@ -5,7 +5,7 @@
     .name-wrapper{
   
         position: absolute;
-        width: 45%;
+        width: 55%;
         margin-top: 130px;
             margin-left: 200px;
       }
@@ -56,15 +56,15 @@
         .name-wrapper{
   
             position: absolute;
-            width: 50%;
+            width: 100%;
             margin-top: 130px;
-            margin-left: 100px;
+            margin-left: 2px;
           }
           .btn {
         
         
-            margin-top: 120px;
-            margin-left: 80px;
+            margin-top: 140px;
+            margin-left: 95px;
             
             
             
