@@ -5,47 +5,20 @@
     .name-wrapper{
   
         position: absolute;
-        width: 55%;
-        margin-top: 130px;
-            margin-left: 200px;
+        width: 100%;
+        margin-top: 210px;
+            margin-left: 1px;
       }
       .btn {
         
         
-        margin-top: 140px;
-        margin-left: 155px;
+        margin-top: 250px;
+        margin-left: 130px;
         
         
         
-      }
-      .learn{
-        width: 130px;
-        height: 35px;
-        border: 2px solid #bee0c2;
-        border-radius: 30px;
-        font-size: 25px;
-        color:  #bee0c2;
-        text-decoration: none;
-        padding-top: 10px;
-        padding-left: 15px;
       }
       
-      .learn:hover{
-        width: 150px;
-        height: 42px;
-        font-size: 30px;
-        background-color: rgba(0, 0, 0, 0.5);
-        border: 6px solid #00ff7f;
-        transition: all 2s;
-        margin-left:0;
-        color: #00ff7f;
-        padding-left: 25px;
-        padding-bottom: 8px;
-        
-        
-        
-        
-      }
       
       
     }
@@ -64,7 +37,7 @@
         
         
             margin-top: 140px;
-            margin-left: 75px;
+            margin-left: 70px;
             
             
             
