@@ -179,13 +179,17 @@
             background: linear-gradient(135deg, #1f4d43,#0f4134,#032b21, #001812);
             position: relative;
             overflow: hidden;
-            height: 400px;
+            height: 450px;
           }
           .social_media {
 
             font-size: 2.2em;
             padding-bottom: 10px;
         
+        }
+        .social_media a:hover{
+            font-size: 1.1em;
+            
         }
 
 
