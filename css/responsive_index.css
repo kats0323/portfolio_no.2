@@ -1,4 +1,7 @@
 @media (max-width: 1000px) {
+    body{
+        width: 100%;
+    }
     .name-wrapper{
   
         position: absolute;
@@ -44,20 +47,55 @@
         
       }
       
-      #hoge{
-        height: 1500px;
-        /* width: 1100px; */
-        margin:0 auto;
-        background-color:#000;
-        position: relative;
-      }
+      
     }
-    /* @media (max-width: 740px) {
-        #hoge{
-            height: 1200px;
-            width: 800px;
-            margin:0 auto;
-            background-color:#000;
-            position: relative;
+    @media (max-width: 740px) {
+        body{
+            width: 100%;
+        }
+        .name-wrapper{
+  
+            position: absolute;
+            width: 45%;
+            margin-top: 110px;
+            margin-left: 1px;
           }
-    } */
+          .btn {
+        
+        
+            margin-top: 90px;
+            margin-left: 20px;
+            
+            
+            
+          }
+
+          .learn{
+            width: 80px;
+            height: 20px;
+            border: 2px solid #bee0c2;
+            border-radius: 30px;
+            font-size: 15px;
+            color:  #bee0c2;
+            text-decoration: none;
+            padding-top: 5px;
+            padding-left: 15px;
+          }
+          
+          .learn:hover{
+            width: 100px;
+            height: 25px;
+            font-size: 15px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border: 6px solid #00ff7f;
+            transition: all 2s;
+            margin-left:0;
+            color: #00ff7f;
+            padding-left: 25px;
+            padding-bottom: 5px;
+            
+            
+            
+            
+          }
+    }
