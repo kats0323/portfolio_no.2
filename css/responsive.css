@@ -1,3 +1,86 @@
+@media (max-width: 1050px){
+    .about-main h1{
+        
+        font-size: 50px;
+        }
+    .about-me p{
+        font-size: 25px;
+    }
+    .about-photo{
+    
+        margin: 0 auto;
+        width:300px;
+        height: 300px;
+        
+        
+    } 
+    .about-education p{
+        font-size: 23px;
+    }
+    #education-explain{
+        padding-top: 30px;
+    }
+    #education-explain p{
+        font-size: 23px;
+    }
+    .about-skill h3{
+        font-size: 35px;
+        padding-top: 30px;
+   
+    }
+    .photo-line{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    #projects-wrapper {
+        
+        height: 1550px;
+        background: linear-gradient(180deg,#71bd65,#69bd5c,#63bd55,#5bc04b,#51be40,#4dbe3b,#46c233);
+      
+    }
+    
+      .skill-position{
+        padding: 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .fa-html5{
+        padding-right: 25px;
+        color: #ea553a;
+        
+         }
+         
+        
+         .fa-css3-alt{
+            padding-right: 25px;
+            color: #0079c2;
+         }
+         
+         .fa-gem{
+            padding-right: 25px;
+            color: #ff6666;
+         }
+         
+         
+         .fa-js-square{
+            padding-right: 25px;
+            color: #ffff00;
+         }
+         
+         .fa-git-alt{
+            padding-right: 25px;
+            color: #ff3838;
+         }
+         
+}
+
+
+
+
 @media (max-width: 670px){
     header{
         display: none;
@@ -236,4 +319,16 @@
         
 
 
+}
+
+@media (max-width: 670px){
+    #about-wrapper {
+      
+        background: linear-gradient(-135deg, #39a089,#188368,#02533f, #003528);
+        
+        overflow: hidden;
+        position: relative;
+        height: 1500px;
+        padding: 0 60px;
+      }
 }
