@@ -321,14 +321,3 @@
 
 }
 
-@media (max-width: 670px){
-    #about-wrapper {
-      
-        background: linear-gradient(-135deg, #39a089,#188368,#02533f, #003528);
-        
-        overflow: hidden;
-        position: relative;
-        height: 1500px;
-        padding: 0 60px;
-      }
-}
